@@ -84,6 +84,7 @@ This ELK server is configured to monitor the following machines:
 * Web-1 VM 10.0.0.9
 * Web-2 VM 10.0.0.10
 * Web-3 VM 10.0.0.11
+
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
 
