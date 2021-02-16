@@ -144,7 +144,14 @@ Under the webservers header add the internal IP addresses of the VM's.
 
 ![Ansible hosts](https://github.com/Chanarowe/Project-1/blob/main/Ansiblehost.jpg)
 
+nano /etc/ansible/ansible.cfg
+root@:74297c93b0ad/# nano /etc/ansible/ansible.cfg
+scroll to line 106 and change remote user to azureuser (my VM username.) Save and exit.
 
+remote_user = azureuser
+Download and Configure the container
 
+Created a playbook called pentest.yml
+![pentestyml]()
 
 
