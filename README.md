@@ -65,12 +65,12 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_
+ What is the main advantage of automating configuration with Ansible?_
 The main advantage of being able to automate the configuration of machines with Ansible is that it reduces the amount of error when configuring multile machines at one time. Additionally, it simplifies the deployment of software and firewall systems for client machines.
 
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+-  In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 
 *Install docker
 *Download image
@@ -85,7 +85,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+List the IP addresses of the machines you are monitoring_
 * Web-1 VM 10.0.0.9
 * Web-2 VM 10.0.0.10
 * Web-3 VM 10.0.0.11
@@ -129,4 +129,5 @@ The following commands are instructions on how to download, install, update the 
 ssh into Jump-Box VM: ssh azureuser@13.77.173.240
 
 Install, setup, launch Docker.io using the following commands: sudo apt install docker.io sudo docker pull cyberxsecurity/ansible sudo docker run -ti cyberxsecurity/ansible:latest bash #Launches the ansible container sudo docker container list -a #Finds the ansible continer name sudo docker start nostalgic_sanderson #My container was named nostalgic_sanderson sudo docker attach nostalgic_sanderson
-![]
+
+![Dockername]()
