@@ -155,4 +155,4 @@ Created a playbook called pentest.yml
 ![pentestyml](https://github.com/Chanarowe/Project-1/blob/main/Ansibleconfigyml.jpg)
 
 Run the playbook once the editing is complete.
-![Ansibleplaybook]()
+![Ansibleplaybook](https://github.com/Chanarowe/Project-1/blob/main/AnsiblePlaybook.jpg)
