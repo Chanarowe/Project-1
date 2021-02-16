@@ -70,7 +70,6 @@ The main advantage of being able to automate the configuration of machines with 
 
 
 The playbook implements the following tasks:
--  In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 
 *Install docker
 *Download image
@@ -91,10 +90,9 @@ List the IP addresses of the machines you are monitoring_
 * Web-3 VM 10.0.0.11
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
 
 Filebeat monitors the log files of choosen systems. It then forwards this data to Logstash, or Elasticsearch. This data is able to be viewed via Kibana. Kibana is able to display information in the below screenshot.
 
