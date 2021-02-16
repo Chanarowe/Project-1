@@ -34,10 +34,11 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
-| Web-1    |DVWA Containers          |            |                  |
-| TODO     |          |            |                  |
-| TODO     |          |            |                  |
+| Jump Box | Gateway  | 10.0.0.8   | Linux            |
+| Web-1    |DVWA Containers |10.0.0.9  |       Linux           |
+| Web-2    |DVWA Containers|   10.0.0.10         |   Linux               |
+| Web-3    |DVWA Containers |10.0.0.11.    | Linux
+| ELK-1    |COnfiguration VM |10.2.0.4            | Linux                 |
 
 ### Access Policies
 
