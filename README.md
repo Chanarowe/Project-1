@@ -106,6 +106,8 @@ Metribeat is is a lightweight shipper that sends data on the status of system se
 
 ![Metricbeat](https://https://github.com/Chanarowe/Project-1/blob/main/metricbeat.jpg)
 
+
+
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 curl 
