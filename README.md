@@ -122,3 +122,11 @@ TODO: Answer the following questions to fill in the blanks:
 Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? In order to specify which machine to run a playbook on you would have to edit /etc/ansible/hosts with the proper group, and internal IP addresses of the selected machines.
 _Which URL do you navigate to in order to check that the ELK server is running?
 http://137.116.68.87:5601/app/kibana#/home will be the URL to navigate to in order to ensure that the ELK server is running.
+
+
+The following commands are instructions on how to download, install, update the files required to run an ansible playbook to configure multiple VM's autonomously.
+
+ssh into Jump-Box VM: ssh azureuser@13.77.173.240
+
+Install, setup, launch Docker.io using the following commands: sudo apt install docker.io sudo docker pull cyberxsecurity/ansible sudo docker run -ti cyberxsecurity/ansible:latest bash #Launches the ansible container sudo docker container list -a #Finds the ansible continer name sudo docker start nostalgic_sanderson #My container was named nostalgic_sanderson sudo docker attach nostalgic_sanderson
+![]
