@@ -152,6 +152,6 @@ remote_user = azureuser
 Download and Configure the container
 
 Created a playbook called pentest.yml
-![pentestyml]()
+![pentestyml](https://github.com/Chanarowe/Project-1/blob/main/Ansibleconfigyml.jpg)
 
 
