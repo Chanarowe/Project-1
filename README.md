@@ -115,10 +115,9 @@ SSH into the control node and follow the steps below:
 Copy the filebeat-playbook.yml file to /etc/ansible/roles.
 Update the filebeat-config.yml file to include ELK-1 private IP 10.2.0.4 under hosts in Elasticsearch output, and Kibana host.
 Run ansible-playbook filebeat-playbook.yml, and navigate to Kibana (http://137.116.68.87:5601/app/kibana) via Elk-1 public IP 137.116.68.87 to check that the installation worked as expected.
-TODO: Answer the following questions to fill in the blanks:
 
-Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? In order to specify which machine to run a playbook on you would have to edit /etc/ansible/hosts with the proper group, and internal IP addresses of the selected machines.
-_Which URL do you navigate to in order to check that the ELK server is running?
+In order to specify which machine to run a playbook on you would have to edit /etc/ansible/hosts with the proper group, and internal IP addresses of the selected machines.
+
 http://137.116.68.87:5601/app/kibana#/home will be the URL to navigate to in order to ensure that the ELK server is running.
 
 
