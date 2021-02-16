@@ -94,6 +94,9 @@ These Beats allow us to collect the following information from each machine:
 
 Filebeat monitors the log files of choosen systems. It then forwards this data to Logstash, or Elasticsearch. This data is able to be viewed via Kibana. Kibana is able to display information in the below screenshot.
 
+
+![Filebeat](https://github.com/Chanarowe/Project-1/blob/main/filebeat.jpg)
+
 Metribeat is is a lightweight shipper that sends data on the status of system services. When metricbeat does not receive these metrics it will send an error event from the host system.
 
 
