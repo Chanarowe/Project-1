@@ -27,9 +27,9 @@ Load balancing ensures that the application will be highly redundant, in additio
 -The advantage of the Jump-Box VM is to create a single point of entry that can be secured with firewalls generated from azure network security groups. Load balancing protects against DoS attacks,and provide redundancy if one server were to be offline.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the actual machines and system logs.
-- What does Filebeat watch for?
+
 _ Filebeat enables the organization of log files to be generated and sent to Logtash,Kibana and Elasticsearch.
-- What does Metricbeat record?
+
 - Metricbeat periodically collects metrics from the system services and operationg system on a amachine. For example Metricbeat will collect services will collect services such as Apache, MongoDB, MySQL, and PostgreSQL.
 
 The configuration details of each machine may be found below.
@@ -51,7 +51,7 @@ Only the Jump-Box machine can accept connections from the Internet. Access to th
 My host machine IP address: 13.77.173.240
 
 Machines within the network can only be accessed by accessing the DVWA container through Jump-Box VM.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address? The only machine that can access ELK-1 server is Jump-Box VM through DVWA container throuugh a peering connection with origin IP 10.0.0.8.
+The only machine that can access ELK-1 server is Jump-Box VM through DVWA container throuugh a peering connection with origin IP 10.0.0.8.
 
 A summary of the access policies in place can be found in the table below.
 
