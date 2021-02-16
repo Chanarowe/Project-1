@@ -142,6 +142,9 @@ Uncomment the [webservers] header
 
 Under the webservers header add the internal IP addresses of the VM's.
 
-![Ansible hosts]()
+![Ansible hosts](https://github.com/Chanarowe/Project-1/blob/main/Ansiblehost.jpg)
+
+
+
 
 
