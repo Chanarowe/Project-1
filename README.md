@@ -131,3 +131,17 @@ ssh into Jump-Box VM: ssh azureuser@13.77.173.240
 Install, setup, launch Docker.io using the following commands: sudo apt install docker.io sudo docker pull cyberxsecurity/ansible sudo docker run -ti cyberxsecurity/ansible:latest bash #Launches the ansible container sudo docker container list -a #Finds the ansible continer name sudo docker start nostalgic_sanderson #My container was named nostalgic_sanderson sudo docker attach nostalgic_sanderson
 
 ![Dockername](https://github.com/Chanarowe/Project-1/blob/main/dockername.png)
+
+
+Edit the Config and Hosts File
+
+nano /etc/ansible/hosts
+
+root@74297c93b0ad~# nano /etc/ansible/hosts
+Uncomment the [webservers] header
+
+Under the webservers header add the internal IP addresses of the VM's.
+
+![Ansible hosts]()
+
+
